@@ -11,6 +11,13 @@ The focus is on data analysis using relational databases and solving analytical 
 - Common Table Expressions (CTEs), including multi-level CTEs
 - Window functions
 - Practical analytical cases (segmentation, seasonality analysis)
+- [customer_spending_analysis.sql](./customer_spending_analysis.sql)
+     Practical case: Customer spending vs category average
+    - Calculated total spending per customer per category
+    - Computed category average spending
+    - Determined % difference from average
+    - Displayed only customers who spent above the category average
+    - Demonstrates CTEs, JOINs, aggregation, and business logic
 
 ## Database
 Test relational database.
