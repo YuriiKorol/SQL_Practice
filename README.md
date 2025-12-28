@@ -4,12 +4,13 @@ This repository contains SQL queries created during hands-on practice and self-l
 The focus is on data analysis using relational databases and solving analytical problems.
 
 ## Scope
-- JOIN
-- Joins on aggregated tables
+- JOINs
+- JOINs on aggregated tables
 - GROUP BY
 - Subqueries (including correlated subqueries)
-- Common Table Expressions (CTE), including multi-level CTE
+- Common Table Expressions (CTEs), including multi-level CTEs
 - Window functions
+- Practical analytical cases (segmentation, seasonality analysis)
 
 ## Database
 Test relational database.
