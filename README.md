@@ -18,6 +18,7 @@ The focus is on data analysis using relational databases and solving analytical 
     - Determined % difference from average
     - Displayed only customers who spent above the category average
     - Demonstrates CTEs, JOINs, aggregation, and business logic
+ - [Other SQL queries using the techniques listed above](./sql/queries.sql)
 
 ## Database
 Test relational database.
