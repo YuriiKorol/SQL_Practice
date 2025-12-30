@@ -86,7 +86,7 @@ ORDER BY order_size, season;
 -- Task: Store profit by month with cumulative total at the end of the year 2025 
 WITH base AS (
     SELECT 
-         DATE_FORMAT(date_time, '%Y-%m') AS month_time
+         month(orders.date_time) AS month_time
         ,SUM(price) AS revenue
     FROM orders
     JOIN shop ON shop.id = orders.shopId
