@@ -22,7 +22,7 @@ SELECT cte.p_name
       ,cte.cat_name
       ,cte.tot_pers_in_cat
       ,ranked.avg_in_category
-	  ,ROUND(((tot_pers_in_cat - avg_in_category) / avg_in_category) * 100, 2) AS diff_procent
+	  ,ROUND(((tot_pers_in_cat - avg_in_category) / avg_in_category) * 100, 2) AS diff_procnt
 FROM cte
 JOIN ranked ON ranked.cat_name = cte.cat_name  
 WHERE cte.tot_pers_in_cat > ranked.avg_in_category;
