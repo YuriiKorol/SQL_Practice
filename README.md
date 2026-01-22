@@ -1,6 +1,6 @@
 # SQL Data Analysis
-
 This repository contains SQL queries created during hands-on practice and self-learning.
+The database was created from scratch by me.
 The focus is on data analysis using relational databases and solving analytical problems.
 
 ## Scope
